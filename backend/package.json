@@ -1,0 +1,21 @@
+{
+  "name": "where-to-live-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tamas Major",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "geodesy": "^2.4.0",
+    "lowdb": "^7.0.1",
+    "uuid": "^11.0.3",
+    "winston": "^3.17.0"
+  }
+}
