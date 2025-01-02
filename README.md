@@ -1,14 +1,18 @@
 ## Where to live
 
 ### Backend
-npm install
-mkdir db
-GOOGLE_MAPS_API_KEY=<your-key> node src/index.js
+```
+npm install  
+mkdir db  
+GOOGLE_MAPS_API_KEY=<your-key> node src/index.js  
+```
 
 ### Frontend
-e.g. with npm package http-server
+e.g. with npm package http-server  
+```
 cd src
 http-server -c 0 -p 7777
+```
 
 ### Add a new item for analysis
 POST http://localhost:3000/analyses
